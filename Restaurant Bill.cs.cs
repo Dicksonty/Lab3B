@@ -1,0 +1,14 @@
+﻿Console.WriteLine("Please enter Restaurant Bill Amount");
+Console.WriteLine();
+Console.WriteLine("$214 before tax and tip");
+int Meal;
+Meal = 214;
+double Tip;
+Tip = (.2);
+Console.WriteLine();
+Console.WriteLine(Tip * Meal);
+double Mealplustip;
+Mealplustip = 256.8;
+Console.WriteLine();
+const double TAX_RATE = .0675;
+Console.WriteLine(Meal * TAX_RATE + Mealplustip + " is the entire amount payed for at the restaurant");
